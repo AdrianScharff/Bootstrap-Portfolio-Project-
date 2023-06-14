@@ -6,8 +6,19 @@
   font-weight: 700;
   background-color: rgb(240, 241, 241);
 } */
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
 
 .container-fluid {
     max-width: 90%;
 }
 
+#contactf {
+  margin: 7% 12% 3% 12%; 
+}
+
+#main {
+  width: 70%;
+  margin: 12% 12% 11% 12%; 
+}
