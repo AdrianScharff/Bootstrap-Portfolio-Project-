@@ -10,15 +10,35 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-image: url("./images/wshapesdesk.svg");
+    background-size: 100%;
+    background-position-y: 3%;
+    background-position-x: 10%;
+    background-repeat: no-repeat;
+}
+
 .container-fluid {
     max-width: 90%;
 }
 
 #contactf {
-  margin: 7% 12% 3% 12%; 
+  margin: 7% 0% 3% 0%;
+  width: 100%;
+  background-image: url("./images/contactfull.png");
+  background-size: cover;
+}
+
+#contacttext {
+    width: 60%;
+    margin: auto auto;
 }
 
 #main {
   width: 70%;
   margin: 12% 12% 11% 12%; 
+}
+
+.allcards {
+    margin-bottom: 10%;
 }

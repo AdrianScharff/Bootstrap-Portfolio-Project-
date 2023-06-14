@@ -14,14 +14,14 @@
 <body>
     <header class="container-fluid">
       <nav class="navbar navbar-dark navbar-expand-md d-flex justify-content-between text-primary">
-        <a class="fs-4 text-decoration-none" href="#">My logo</a>
+        <a class="fs-5 text-decoration-none poppins" href="#">My logo</a>
         <!-- <div><a href="#" class="fa fa-bars"></a></div> -->
         <div >
             <button href="#" class="navbar-toggler justify-content-end"
             type="button"
             data-toggle="collapse"
             data-target="#collapsibleNavbar"></button>
-            <span class="" role="button">
+            <span class="d-block d-sm-none" role="button">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </span>
         </button>
@@ -29,9 +29,9 @@
        <div  class="collapse navbar-collapse justify-content-end text-primary"
        id="collapsibleNavbar">
         <ul class="list-unstyled d-flex">
-            <li class="p-2">Portfolio</li>
-            <li class="p-2">About</li>
-            <li class="p-2">Contact</li>
+            <li class="p-2"><a class="text-decoration-none poppins" href="#firstcard">Portfolio</a></li>
+            <li class="p-2"><a class="text-decoration-none poppins" href="#aboutme">About</a></li>
+            <li class="p-2"><a class="text-decoration-none poppins" href="#contactf">Contact</a></li>
         </ul>
        </div>
       </nav>
@@ -64,12 +64,12 @@
         <!-- cards section -->
         <section class="container-fluid">
             <!-- first card -->
-            <div class="row">
+            <div class="row allcards" id="firstcard">
                 <div class="col-6">
                     <img class="d-block d-sm-none" src="./images/orange.snapshot.png" alt="">
                     <img class="sample card1desk" src="./images/card1desk .png" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-5">
                     <h2>Tonic</h2>
                     <div><img class="canopy" src="./images/Frame 2.png" alt=""></div>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
@@ -85,12 +85,12 @@
             </div>
 
             <!-- second card -->
-            <div class="row flex-row-reverse">
+            <div class="row allcards flex-row-reverse">
                 <div class="col-6">
                     <img class="d-block d-sm-none" src="./images/Beige.snapshot.png" alt="">
                     <img class="sample card2desk" src="./images/card2desk.png" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-5">
                     <h2>Multi-Post Stories</h2>
                     <div>
                         <img class="d-block d-sm-none" src="./images/Frame 2.png" alt="">
@@ -113,12 +113,12 @@
             </div>
 
             <!-- third card -->
-            <div class="row">
+            <div class="row allcards">
                 <div class="col-6">
                     <img class="d-block d-sm-none" src="./images/shinyorange.snapshot.png" alt="">
                     <img class="sample card3desk" src="./images/card3desk.png" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-5">
                     <h2 id="h23mobile" class="d-block d-sm-none">Tonic</h2>
                     <h2 id="h23desk">Facebook 360</h2>
                     <div>
@@ -142,12 +142,12 @@
             </div>
 
             <!-- fourth card -->
-            <div class="row flex-row-reverse">
+            <div class="row allcards flex-row-reverse">
                 <div class="col-6">
                     <img class="d-block d-sm-none" src="./images/white.snapshot.png" alt="">
                     <img class="sample card4desk" src="./images/card4desk.png" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-5">
                     <h2 id="h24mobile" class="d-block d-sm-none">Multi-Post Stories</h2>
                     <h2 id="h24desk">Uber Navigation</h2>
                     <div>
@@ -172,14 +172,14 @@
         </section>
 
         <!-- about section -->
-        <section class="container-fluid">
+        <section class="container-fluid poppins" id="aboutme">
             <div id="entireaboutcontent" class="row">
             <section class="abttext col-6">
-                <h2>About Myself</h2>
+                <h2 class="fw-bold">About Myself</h2>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through
                     some of my work and experience! If you like what you see and have a project you need coded, don’t
                     hesitate to contact me.</p>
-                <a href="#">LET'S CONNECT</a>
+                <a class="text-decoration-none" href="#">LET'S CONNECT</a>
                 <ul class="list-unstyled d-flex">
                     <li class="p-2"><a  href="https://www.freecodecamp.org/"> <img class="socialicon" src="./images/Githubicon.png" alt=""> </a></li>
                     <li class="p-2"><a  href="https://www.linkedin.com/in/adri%C3%A1n-ju%C3%A1rez-17a51b263/"> <img class="socialicon"
@@ -194,7 +194,7 @@
                 </div>
             </section>
             <!-- list of languages, frameworks and skills -->
-            <section class="abtlanguages col-6">
+            <section class="abtlanguages col-6 poppins">
                 <ul class="list-unstyled">
                     <li class="languages details">
                         <div class="know" id="wordlanguages">Languages</div>
@@ -229,9 +229,9 @@
       </div>
     </section>
     <!-- contact section -->
-    <div class="container-fluid" id="contactf">
+    <div class="container-fluid poppins text-light" id="contactf">
         <div id="contacttext">
-            <h2>Contact me</h2>
+            <h2 class="fw-bold">Contact me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built or a project
                 that needs coding. <br>
                 I’d love to help with it!</p>
