@@ -11,15 +11,15 @@
 }
 
 body {
-    background-image: url("./images/wshapesdesk.svg");
-    background-size: 100%;
-    background-position-y: 3%;
-    background-position-x: 10%;
-    background-repeat: no-repeat;
+  background-image: url("./images/wshapesdesk.svg");
+  background-size: 100%;
+  background-position-y: 3%;
+  background-position-x: 10%;
+  background-repeat: no-repeat;
 }
 
 .container-fluid {
-    max-width: 90%;
+  max-width: 90%;
 }
 
 #contactf {
@@ -30,15 +30,15 @@ body {
 }
 
 #contacttext {
-    width: 60%;
-    margin: auto auto;
+  width: 60%;
+  margin: auto auto;
 }
 
 #main {
   width: 70%;
-  margin: 12% 12% 11% 12%; 
+  margin: 12% 12% 11% 12%;
 }
 
 .allcards {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
